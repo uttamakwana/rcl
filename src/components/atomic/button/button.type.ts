@@ -1,3 +1,12 @@
-import { ComponentPropsWithoutRef } from "react";
+import type { TCSSColorVariant } from "@/types/global.type";
+import type { ComponentPropsWithoutRef } from "react";
+// Button Actions
+export type TCSSButtonAction = "primary" | "secondary" | "tertiary";
 
-export type TButtonProps = {} & ComponentPropsWithoutRef<"button">;
+// Button Variants
+export type TCSSButtonVariant = TCSSColorVariant;
+
+export type TButtonProps = {
+  variant?: TCSSButtonVariant;
+  action?: TCSSButtonAction;
+} & ComponentPropsWithoutRef<"button">;
