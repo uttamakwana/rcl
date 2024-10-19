@@ -1,0 +1,19 @@
+{
+  "name": "rcl",
+  "version": "0.0.1",
+  "description": "The ultimate react component library helps you build visually appealing and interactive UIs.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uttamakwana/rcl.git"
+  },
+  "author": "Uttam Makwana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uttamakwana/rcl/issues"
+  },
+  "homepage": "https://github.com/uttamakwana/rcl#readme"
+}
