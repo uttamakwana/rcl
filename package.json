@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "tsc -b && vite build",
-    "test": "vitest run",
+    "test": "vitest run --changed",
     "test-watch": "vitest",
     "test:ui": "vitest --ui",
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
