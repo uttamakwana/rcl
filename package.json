@@ -17,7 +17,15 @@
     "format": "prettier --write --parser typescript '**/*.{ts, tsx}",
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint",
+      "npm run test"
+    ]
   },
   "repository": {
     "type": "git",
@@ -51,7 +59,9 @@
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-storybook": "^0.9.0",
+    "husky": "^9.1.6",
     "jsdom": "^25.0.1",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "react": "^18.3.1",
     "storybook": "^8.3.6",
