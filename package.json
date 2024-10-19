@@ -32,7 +32,7 @@
     "url": "git+https://github.com/uttamakwana/rcl.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@uttamakwana"
+    "registry": "https://npm.pkg.github.com/uttamakwana"
   },
   "author": "Uttam Makwana",
   "license": "MIT",
