@@ -1,5 +1,5 @@
 {
-  "name": "@uttamakwana/rcl",
+  "name": "rcl",
   "version": "0.0.1",
   "description": "The ultimate react component library helps you build visually appealing and interactive UIs.",
   "type": "module",
