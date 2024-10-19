@@ -1,5 +1,5 @@
 {
-  "name": "rcl",
+  "name": "@uttamakwana/rcl",
   "version": "0.0.1",
   "description": "The ultimate react component library helps you build visually appealing and interactive UIs.",
   "type": "module",
@@ -30,6 +30,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uttamakwana/rcl.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@uttamakwana"
   },
   "author": "Uttam Makwana",
   "license": "MIT",
